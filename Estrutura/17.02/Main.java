@@ -6,10 +6,10 @@ public class Main {
         int vazios = calcVazios(predio);
         System.out.println("\nQtde de apartamentos vazios: " + vazios);
         
-        int andarMaiorNumMoradores = calcAndarMaiorNumMoradores(predio);
+        int andarMaiorNumMoradores = calcAndar(predio);
         System.out.println("Andar com maior número de moradores: " + andarMaiorNumMoradores);
         
-        int totalMoradores = calcTotalMoradores(predio);
+        int totalMoradores = calcTotal(predio);
         System.out.println("Quantidade total de moradores do prédio: " + totalMoradores);
     }
 
@@ -42,7 +42,7 @@ public class Main {
         }
     }
 
-    public static int calcAndarMaiorNumMoradores(int[][] predio) {
+    public static int calcAndar(int[][] predio) {
         int maxMoradores = 0;
         int andar = 0;
         for (int i = 0; i < predio.length; i++) {
@@ -58,7 +58,7 @@ public class Main {
         return andar;
     }
 
-    public static int calcTotalMoradores(int[][] predio) {
+    public static int calcTotal(int[][] predio) {
         int total = 0;
         for (int i = 0; i < predio.length; i++) {
             for (int j = 0; j < predio[i].length; j++) {
