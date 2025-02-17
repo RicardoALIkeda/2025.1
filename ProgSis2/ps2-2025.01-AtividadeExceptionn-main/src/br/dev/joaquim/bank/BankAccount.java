@@ -2,6 +2,7 @@ package br.dev.joaquim.bank;
 
 /**
  * Classe que representa uma conta bancária.
+ *  @author Ricardo Andre Lopes Ikeda.
  */
 public class BankAccount {
   private int accountNumber;

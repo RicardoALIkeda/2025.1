@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 /**
  * Classe que representa a interface do usuário para o sistema bancário.
+ * @author Ricardo Andre Lopes Ikeda.
  */
 public class UserInterface {
     private Scanner input = new Scanner(System.in);
